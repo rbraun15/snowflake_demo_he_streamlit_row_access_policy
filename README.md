@@ -51,14 +51,14 @@ The demo consists of:
    -- Connect to Snowflake as SYSADMIN or ACCOUNTADMIN
    -- Run the database setup script
    -- This creates tables, indexes, row access policy, and views
-   !source 01_database_setup.sql
+   01_database_setup.sql
    ```
 
 3. **Data Population**
    ```sql
    -- Run the sample data script
    -- This populates ~2,500 realistic financial transactions
-   !source 02_sample_data.sql
+   02_sample_data.sql
    ```
 
 4. **Grant Permissions** (Automatically handled by setup script)
@@ -196,7 +196,7 @@ FROM VW_FINANCE_DATA;
 1. **Create user entitlement**:
    ```sql
    INSERT INTO USER_ENTITLEMENTS (USERNAME, DEPARTMENT_ID, ACCESS_LEVEL, IS_ACTIVE)
-   VALUES ('NEW_USER', (SELECT DEPARTMENT_ID FROM DEPARTMENTS WHERE DEPARTMENT_CODE = 'IT'), 'DEPARTMENT_ONLY', TRUE);
+   VALUES ('NEW_USER', <DEPARTMENT_ID FROM DEPARTMENTS WHERE DEPARTMENT_CODE = 'IT'>, 'DEPARTMENT_ONLY', TRUE);
    ```
 
 2. **Grant the demo role**:
