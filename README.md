@@ -43,7 +43,6 @@ The demo consists of:
    # - 01_database_setup.sql
    # - 02_sample_data.sql  
    # - streamlit_app.py
-   # - requirements.txt
    # - README.md
    ```
 
