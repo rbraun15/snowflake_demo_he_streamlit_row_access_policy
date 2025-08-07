@@ -1,7 +1,7 @@
 # Higher Education Finance Dashboard - Row Access Policy Demo
 
 
-https://www.youtube.com/watch?v=YB_FcIlEJFY
+[Watch Demo Here](https://www.youtube.com/watch?v=YB_FcIlEJFY)
 
 🎓 **A comprehensive Snowflake Row Access Policy demonstration with Streamlit in Snowflake**
 
