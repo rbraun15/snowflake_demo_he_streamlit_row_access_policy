@@ -1,5 +1,8 @@
 # Higher Education Finance Dashboard - Row Access Policy Demo
 
+
+https://www.youtube.com/watch?v=YB_FcIlEJFY
+
 🎓 **A comprehensive Snowflake Row Access Policy demonstration with Streamlit in Snowflake**
 
 This demo showcases an example of row-level security in a higher education context, demonstrating how different users see different data based on their entitlements while maintaining a single application codebase.
